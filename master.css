@@ -1,0 +1,125 @@
+body{
+  background-color: #3A405A;
+}
+#card{
+  background-color: #175676;
+  width: 80vw;
+  height: 65vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 0 8px 15px -6px #ccc;
+
+}
+#catcher{
+  color: #C5C3C6;
+  font-family:'Gloria Hallelujah', cursive;
+  margin-top: 7vh;
+  margin-bottom: 3vh;
+}
+#catcher p{
+  margin-top: 1%;
+}
+#call{
+  width: 40vw;
+  height: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2vh;
+  text-align: center;
+  font-family: 'Bungee', cursive;
+}
+#call h2{
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+
+}
+.bt{
+  height: 10vh;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#twitter{
+  text-decoration: none;
+  color: #B6C649;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+#buttoni{
+  background-color: #D16666;
+  height: 8vh;
+  width: 15vw;
+  border-radius: 5px;
+  border: none;
+  color: #175676;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.1em;
+}
+@media only screen and (max-width: 700px) {
+  #card{
+    background-color: #175676;
+    width: 90vw;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+  }
+  #catcher{
+    color: #C5C3C6;
+    font-family:'Gloria Hallelujah', cursive;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  #call{
+    width: 45vw;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+  }
+  #bt{
+    height: 10vh;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #buttoni{
+    background-color: #D16666;
+    height: 8vh;
+    width: 15vw;
+    border-radius: 5px;
+    border: none;
+    color: #175676;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.1em;
+  }
+}
+@media only screen and (max-width: 650px){
+  #catcher{
+    margin-top: 10vh;
+  }
+}
+@media only screen and (max-width: 450px){
+  #card{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+  }
+  #call{
+    width: 80vw;
+    height: 30vh;
+  }
+}
+@media only screen and (max-height: 350px){
+#buttoni{
+  height: 6vh;
+  font-size: .5em;
+  color: white;
+}
+#twitter{
+  display: none;
+}
+}
